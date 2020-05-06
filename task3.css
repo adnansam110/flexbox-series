@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+        background-color: #f1d1d1;
+        overflow-x: hidden;
+    }
+nav {
+		width:100%;
+	}
+.logo{
+	    color: #17172f;
+        float: left;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-left: 70px;
+}	
+.navigation-bar{
+	width: 30%;
+    float: right;
+}
+ul {
+	    list-style: none;
+        text-decoration: none;
+}
+ul li{
+        text-decoration: none;
+        display: inline;
+        margin: 10px;
+		font-family:Tahoma;
+    }
+ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: #1f2b2e;
+    }	
+.Mylinks:hover{
+        background-color:#7d5a5a;
+        padding: 10px;
+        color: white;
+        border-radius: 12px;
+        letter-spacing: 2px;
+		opacity:50%;
+		-webkit-transition-duration: 0.3s;
+    }	
+.SignUpBtn{
+    width: 100px;
+    text-transform: uppercase;
+    padding: 10px;
+	border-radius:10px;
+    border-style: none;
+    cursor: pointer;
+	padding:5px;
+	background-color:#7d5a5a;
+	color:white;
+	}	
+.SignUpBtn:hover{
+    opacity:60%;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transform: scale(0.9);
+	
+	}	
+.headline{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 624px;
+        left: 27%;
+        top: 50px;
+    }	
+.heading{
+		color:#7d5a5a;
+       text-transform: uppercase;
+       letter-spacing: 3px;
+       margin-bottom: 20px;
+       width: 589px;
+	   padding-left: 50px;
+}	
+.headlineParagraph{
+		width: 550px;
+        padding-left: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-bottom: 43px;
+}
+.CtaBtn{
+     text-transform: uppercase;
+     font-size: medium;
+     width: 269px;
+     position: relative;
+     left: 150px;
+     padding: 15px;
+     color: white;
+     background-color: #e43f5a;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+	 
+	}
+.CtaBtn:hover{
+	opacity:60%;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transform: scale(0.9);
+	 border-radius:10px;
+	}
+.sectionImage{
+	
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 0px;
+	padding-left:80px;
+}
+.platform{
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    height: 430px;
+    left: 27%;
+    margin-bottom: 30px;
+}
+.platformHeading{
+	text-transform: uppercase;
+    color: #7d5a5a;
+    letter-spacing: 3px;
+    margin-bottom: 34px;
+	padding-left:95px;
+}
+.Features{
+  
+    width: 100%;
+    height: 120px;
+
+	}
+
+.FeaturesContainer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+		
+        
+    }
+
+.item-1{
+     
+       width: 200px;
+       height: 130px;
+       margin: 10px;
+       text-align: center;
+	   font-family:Tahoma;
+    }
+.item-2{
+       
+        width: 200px;
+       height: 130px;
+       margin: 10px;
+       text-align: center;
+       font-family:Tahoma;
+    }
+.item-3{
+       
+        width: 200px;
+        height: 130px;
+        margin: 10px;
+        text-align: center;
+		font-family:Tahoma;
+    }
+.WorksHow{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 390px;
+    background-color: #f3e1e1;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+.working{
+	color: #7d5a5a;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+	width: 800px;
+    height: 450px;
+    position: relative;
+    left: 120px;
+    padding-top: 50px;
+	padding-left:200px;
+}
+.BlankBoxes{
+  
+    width: 300px;
+    height: 300px;
+    margin-left: 130px;
+	padding-top:130px;
+}
+.LearnMore{
+    width: 155px;
+    text-transform: uppercase;
+    padding: 8px;
+    border-radius:10px;
+    cursor: pointer;
+	background-color:pink;
+	border-style:none;
+	color: white;
+}
+
+.BlankBox1{
+    
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 60px;
+  left: 10px;
+  background-color: darkgrey;
+  border-radius: 15px;
+}
+
+.InnerBlankBox{
+   
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 80%;
+    top: 40%;
+    border-radius: 10px;
+    background-color:silver;
+	}
+.reviews {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.reviewHead	{
+	text-transform: uppercase;
+    color: #7d5a5a;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.reviewContent{
+	 width: 480px;
+     position: relative;
+     left: 32%;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-bottom: 60px;
+}
+.getInTouch {
+	display: flex;
+    flex-direction: column;
+    background-color: #f3e1e1;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.getInTouchHead
+{
+	color: #7d5a5a;
+    position: relative;
+    top: 55px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.GetInTouchContent{
+	position: relative;
+    top: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Subscribeform {
+	position: relative;
+    top: 140px;
+}
+input{
+    width: 320px;
+    height: 35px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.SubscribeBtn{
+
+    width: 125px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-style:none;
+	background-color:#7d5a5a;
+	border-radius:10px;
+    cursor: pointer;
+	color:white;
+}
+.LogoContainer{
+	display: flex;
+    flex-direction: row;
+    background-color: #f1d1d1;
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.item{
+    background-color: #7d5a5a;
+    width: 160px;
+    height: 79px;
+    margin:20px;
+    text-align: center;
+	padding:28px;
+    }
+.pageFooter	{
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: center;
+	background-color:#f3e1e1;
+}
+.FooterItem	{
+	width: 100px;
+    height: 190px;
+    margin:20px;
+	
+}
+     
+	 
+		
